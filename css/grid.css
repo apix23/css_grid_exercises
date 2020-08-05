@@ -1,5 +1,13 @@
 .container{
+    max-height: 350px;
     display: grid;
-    grid-template-columns: 1fr 200px;
-    grid-gap: 20px;
+    grid-template-columns: 1fr 2fr 1fr 400px;
+    grid-template-rows: 2fr 2fr 100px;
+    grid-gap: 10px;
+}
+
+.container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
